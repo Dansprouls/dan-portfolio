@@ -1,0 +1,99 @@
+.hero-container {
+  color: #000;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../../assets/endless-constellation.svg);
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+}
+
+.main-hero h1 {
+  font-size: 2.3rem;
+  margin-top: 6rem;
+}
+
+.underline-text {
+  position: relative;
+}
+
+.underline-text::after {
+  content: "";
+  position: absolute;
+  width: 3%;
+  height: 0.3rem;
+  background-color: #2e8b57;
+  bottom: -1.5rem;
+  left: 50%;
+  margin-left: -1.5%;
+  border-radius: 5px;
+}
+
+.main-hero h2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.accent-style {
+  color: #2e8b57;
+  font-weight: 700;
+}
+
+.dan-sprouls {
+  color: #2e8b57;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.main-hero {
+  display: inline-block;
+  text-align: center;
+}
+
+.fa-icon {
+  font-size: 20px; // Set the icon size as desired
+  margin: 0 10px; // Adjust the margin as needed for spacing between icons in the same row
+  color: #2e8b57;
+}
+
+.code-icon {
+  font-size: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.about-cta,
+.my-work-cta {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.cta-container p {
+  margin-right: 2px;
+}
+
+.cta-container p:hover {
+  color: #2e8b57;
+  // font-weight: 700;
+  // text-decoration: underline;
+}
+
+.cta-container a {
+  text-decoration: none;
+  color: black;
+}

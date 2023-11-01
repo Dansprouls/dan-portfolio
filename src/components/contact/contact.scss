@@ -1,0 +1,98 @@
+.contact-container {
+  color: #000;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../../assets/endless-constellation.svg);
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-content-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.information-container,
+.contact-form-container {
+  width: 48%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 2px solid #2e8b57;
+  border-radius: 5px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #e6e6e6;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.my-info-header {
+  margin-bottom: 6.5rem;
+  // color: #2e8b57;
+  font-weight: 700;
+}
+
+// .info-items-container-format {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.info-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.info-item {
+  display: flex;
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Adjust the horizontal spacing between icon and text */
+  /* Other styles for the info-item container */
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.info-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.info-item a:hover {
+  color: #2e8b57;
+}
+
+.info-item svg {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.info-item svg:hover {
+  animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

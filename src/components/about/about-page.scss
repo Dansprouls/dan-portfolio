@@ -1,0 +1,58 @@
+.about-container {
+  color: #000;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../../assets/endless-constellation.svg);
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.underline-text {
+  position: relative;
+}
+
+.underline-text::after {
+  content: "";
+  position: absolute;
+  width: 3%;
+  height: 0.3rem;
+  background-color: #2e8b57;
+  bottom: -1.5rem;
+  left: 50%;
+  margin-left: -1.5%;
+  border-radius: 5px;
+}
+
+.about-content p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-container h2 {
+  margin-top: 4rem;
+  // color: #2e8b57;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.language-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
