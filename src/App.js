@@ -16,10 +16,10 @@ function App() {
       <BrowserRouter>
         <NavigationBar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/dan-portfolio/" element={<HomePage />} />
+          <Route path="/dan-portfolio/about" element={<AboutPage />} />
+          <Route path="/dan-portfolio/projects" element={<ProjectsPage />} />
+          <Route path="/dan-portfolio/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
     </>
