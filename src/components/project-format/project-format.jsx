@@ -25,9 +25,11 @@ export const ProjectFormat = ({ project }) => {
             <a href={githubLink} target="_blank" rel="noopener noreferrer">
               View GitHub Repository
             </a>
-            <a href={websiteLink} target="_blank" rel="noopener noreferrer">
-              View Deployed Project
-            </a>
+            {websiteLink !== "" ? (
+              <a href={websiteLink} target="_blank" rel="noopener noreferrer">
+                View Deployed Project
+              </a>
+            ) : null}
           </div>
         </div>
       </div>

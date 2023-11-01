@@ -4,6 +4,7 @@ import { ProjectFormat } from "../project-format/project-format";
 import myFlixPic from "../../assets/myFlix-screenshot.png";
 import RoundUp from "../../assets/RoundUp-screenshot.png";
 import Pokedex from "../../assets/Pokedex-screenshot.png";
+import DanPortfolio from "../../assets/DanPortfolio-screenshot.png";
 
 import "./projects.scss";
 
@@ -43,12 +44,13 @@ export const ProjectsPage = () => {
     },
     {
       id: 4,
-      image: "",
+      image: DanPortfolio,
       title: "Portfolio Website",
-      description: "Placeholder",
-      techStack: "Placeholder",
-      githubLink: "Placeholder",
-      websiteLink: "Placeholder",
+      description:
+        "I decided to create my own portfolio from scratching using React to showcase and build upon my React skills, instead of using templates or a CMS. My portfolio website is a responsive application that contains information such as my contact information and information about me. Most importantly, it contains links to working websites and Github repos for projects that I have previously created. The goal of this project is to present my projects and skills to potential employers and fellow developers in a visually appealing and responsive UI. I plan on adding in backend and database features for form submission on the Contact page.",
+      techStack: "HTML, SCSS, JavaScript, React",
+      githubLink: "https://github.com/Dansprouls/dan-portfolio",
+      websiteLink: "",
     },
   ];
 
