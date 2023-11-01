@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dan-portfolio/static/css/main.153e7445.css",
-    "main.js": "/dan-portfolio/static/js/main.9b3763de.js",
+    "main.js": "/dan-portfolio/static/js/main.8f98e5cc.js",
     "static/js/787.4d265bfc.chunk.js": "/dan-portfolio/static/js/787.4d265bfc.chunk.js",
     "static/media/Pokedex-screenshot.png": "/dan-portfolio/static/media/Pokedex-screenshot.4697faee311a0abbf9a4.png",
     "static/media/myFlix-screenshot.png": "/dan-portfolio/static/media/myFlix-screenshot.a3e1d8e3938ee471f0af.png",
@@ -10,11 +10,11 @@
     "static/media/endless-constellation.svg": "/dan-portfolio/static/media/endless-constellation.96f323bd5c8a8d32f0b8.svg",
     "index.html": "/dan-portfolio/index.html",
     "main.153e7445.css.map": "/dan-portfolio/static/css/main.153e7445.css.map",
-    "main.9b3763de.js.map": "/dan-portfolio/static/js/main.9b3763de.js.map",
+    "main.8f98e5cc.js.map": "/dan-portfolio/static/js/main.8f98e5cc.js.map",
     "787.4d265bfc.chunk.js.map": "/dan-portfolio/static/js/787.4d265bfc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.153e7445.css",
-    "static/js/main.9b3763de.js"
+    "static/js/main.8f98e5cc.js"
   ]
 }
