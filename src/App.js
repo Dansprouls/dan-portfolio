@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import "./App.css";
 import { AboutPage } from "./components/about/about";
 import { HomePage } from "./components/home/home";
@@ -13,7 +13,7 @@ function App() {
         src="https://kit.fontawesome.com/bab12ba52e.js"
         crossOrigin="anonymous"
       ></script>
-      <BrowserRouter>
+      <HashRouter hashtype="slash">
         <NavigationBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

@@ -24,6 +24,7 @@ export const AboutPage = () => {
   return (
     <div className="about-container">
       <h1 className="underline-text">About Me</h1>
+
       <div className="about-content">
         <p>
           I'm a Full Stack Web Developer with a passion for transforming ideas

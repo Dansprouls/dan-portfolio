@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"; //use this to set up navigation
-//import ReorderIcon from "@mui/icons-material/Reorder"; //cant figure out icon
+// import ReorderIcon from "@mui/icons-material/Reorder";
 
 import "./navigation.scss";
 import PixelPic from "../../assets/pixel-picture.jpeg";
