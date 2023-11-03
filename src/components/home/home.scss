@@ -98,3 +98,14 @@
   text-decoration: none;
   color: black;
 }
+
+@media only screen and (max-width: 850px) {
+  .hero-container {
+    padding-top: 4rem;
+  }
+
+  .main-hero h1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
