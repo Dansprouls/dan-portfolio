@@ -60,7 +60,7 @@
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .togglebtn svg {
@@ -115,7 +115,35 @@
 @media only screen and (max-width: 600px) {
   .togglebtn {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  .logo-pic-sm-screen {
+    display: flex;
+    border-radius: 50% !important;
+    height: 3.5rem !important;
+    border: 1px solid #2e8b57 !important;
+    margin-left: 20px;
+  }
+
+  #open .logo-pic-sm-screen {
+    border: 1px solid white !important;
+    margin-top: 1rem;
+  }
+
+  .togglebtn a {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    margin-left: 1rem;
+  }
+
+  #close .togglebtn a {
+    display: flex;
+    margin-top: 1rem;
+  }
+
   #close a {
     display: none;
   }
