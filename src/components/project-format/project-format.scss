@@ -1,15 +1,17 @@
 .project-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 20px;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  text-align: left;
   // border: 1px solid red;
 }
 
 .project-image {
   flex: 0 0 600px;
   margin-right: 20px;
+  justify-content: center;
 }
 
 .project-image img {
@@ -95,4 +97,64 @@ strong {
   color: #2e8b57;
   font-weight: 700;
   font-size: 1.1rem;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row;
+  /* Additional styles for .project-item go here */
+}
+
+// @media only screen and (max-width: 1150px) {
+//   .project-links {
+//     display: flex;
+//     flex-direction: column;
+//     width: fit-content;
+//     margin: 0 auto;
+//   }
+// }
+
+@media only screen and (max-width: 1150px) {
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .project-image {
+    flex: 0 0 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .project-image:first-child {
+    margin-top: 0;
+  }
+
+  // .project-image img {
+  //   width: 100%;
+  //   margin-left: 0;
+  // }
+
+  .project-image img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .project-details {
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  .project-links {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+  }
 }

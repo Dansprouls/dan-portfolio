@@ -35,3 +35,17 @@
     transform: translateX(0);
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .language-box {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .language-box {
+    width: fit-content;
+    margin-right: 1rem;
+  }
+}

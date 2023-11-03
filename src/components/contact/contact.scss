@@ -34,16 +34,8 @@
 
 .my-info-header {
   margin-bottom: 6.5rem;
-  // color: #2e8b57;
   font-weight: 700;
 }
-
-// .info-items-container-format {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-// }
 
 .info-items-container {
   display: flex;
@@ -54,9 +46,8 @@
 
 .info-item {
   display: flex;
-  align-items: center; /* Center items horizontally */
-  gap: 10px; /* Adjust the horizontal spacing between icon and text */
-  /* Other styles for the info-item container */
+  align-items: center;
+  gap: 10px;
   margin: 0 auto;
   font-size: 1.2rem;
 }
@@ -94,5 +85,32 @@
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .information-container,
+  .contact-form-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .my-info-header {
+    margin-bottom: 2rem;
+  }
+
+  .info-items-container {
+    gap: 2rem;
+    justify-content: flex-start;
+  }
+
+  .information-container {
+    margin-bottom: 2rem;
+  }
+
+  .contact-content-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
