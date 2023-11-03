@@ -17,6 +17,9 @@ export const NavigationBar = () => {
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="togglebtn">
+        <Link to="/">
+          <img className="logo-pic-sm-screen" src={PixelPic} alt="logo" />
+        </Link>
         <button
           onClick={() => {
             setExpandNavbar((prev) => !prev);
