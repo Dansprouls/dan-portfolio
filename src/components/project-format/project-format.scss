@@ -5,7 +5,6 @@
   padding-top: 1rem;
   padding-bottom: 2rem;
   text-align: left;
-  // border: 1px solid red;
 }
 
 .project-image {
@@ -46,7 +45,6 @@
 
 .project-details h2 {
   font-weight: 700;
-  // color: #2e8b57;
   text-align: center;
   font-size: 2rem;
 }
@@ -62,10 +60,7 @@
   border: 2px solid #2e8b57;
   background-color: #2e8b57;
   color: white;
-
   border-radius: 4px;
-  // font-weight: 700;
-
   transition: transform 0.3s ease;
 }
 
@@ -102,17 +97,7 @@ strong {
 .project-item {
   display: flex;
   flex-direction: row;
-  /* Additional styles for .project-item go here */
 }
-
-// @media only screen and (max-width: 1150px) {
-//   .project-links {
-//     display: flex;
-//     flex-direction: column;
-//     width: fit-content;
-//     margin: 0 auto;
-//   }
-// }
 
 @media only screen and (max-width: 1150px) {
   .project-item {
@@ -133,11 +118,6 @@ strong {
   .project-image:first-child {
     margin-top: 0;
   }
-
-  // .project-image img {
-  //   width: 100%;
-  //   margin-left: 0;
-  // }
 
   .project-image img {
     width: 80%;

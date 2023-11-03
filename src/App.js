@@ -5,6 +5,7 @@ import { HomePage } from "./components/home/home";
 import { NavigationBar } from "./components/navigation/navigation";
 import { ProjectsPage } from "./components/projects/projects";
 import { ContactPage } from "./components/contact/contact";
+import ScrollToTop from "./components/scroll/scrollToTop";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       ></script>
       <HashRouter hashtype="slash">
         <NavigationBar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -27,13 +29,3 @@ function App() {
 }
 
 export default App;
-
-/*
-<BrowserRouter>
-        <NavigationBar />
-        <Home />
-        <AboutPage />
-        <ProjectsPage />
-        <ContactPage />
-      </BrowserRouter>
-*/

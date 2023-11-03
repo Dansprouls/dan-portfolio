@@ -12,7 +12,6 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  // align-items: center;
 }
 
 .main-hero h1 {
@@ -58,8 +57,8 @@
 }
 
 .fa-icon {
-  font-size: 20px; // Set the icon size as desired
-  margin: 0 10px; // Adjust the margin as needed for spacing between icons in the same row
+  font-size: 20px;
+  margin: 0 10px;
   color: #2e8b57;
 }
 
@@ -90,8 +89,6 @@
 
 .cta-container p:hover {
   color: #2e8b57;
-  // font-weight: 700;
-  // text-decoration: underline;
 }
 
 .cta-container a {
