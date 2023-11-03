@@ -89,6 +89,12 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .contact-container {
+    background-position: center;
+    height: 100%;
+    position: relative;
+  }
+
   .information-container,
   .contact-form-container {
     width: 80%;
@@ -103,10 +109,11 @@
   .info-items-container {
     gap: 2rem;
     justify-content: flex-start;
+    margin-bottom: 1.5rem;
   }
 
   .information-container {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .contact-content-container {

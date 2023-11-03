@@ -33,7 +33,7 @@ export const ContactPage = () => {
                   href="https://www.linkedin.com/in/danielsprouls/"
                   target="blank_"
                 >
-                  Dan's LinkedIn Profile
+                  Check out my LinkedIn
                 </a>
               </div>
               <div className="info-item">
@@ -44,7 +44,7 @@ export const ContactPage = () => {
                   />
                 </Link>
                 <a href="https://github.com/Dansprouls" target="blank_">
-                  Dan's GitHub
+                  Check out my GitHub
                 </a>
               </div>
 
