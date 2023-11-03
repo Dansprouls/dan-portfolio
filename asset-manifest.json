@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dan-portfolio/static/css/main.ebfd554b.css",
-    "main.js": "/dan-portfolio/static/js/main.55b25fc0.js",
+    "main.css": "/dan-portfolio/static/css/main.ed65c741.css",
+    "main.js": "/dan-portfolio/static/js/main.1f9f5068.js",
     "static/js/787.4d265bfc.chunk.js": "/dan-portfolio/static/js/787.4d265bfc.chunk.js",
     "static/media/Pokedex-screenshot.png": "/dan-portfolio/static/media/Pokedex-screenshot.4697faee311a0abbf9a4.png",
     "static/media/myFlix-screenshot.png": "/dan-portfolio/static/media/myFlix-screenshot.a3e1d8e3938ee471f0af.png",
@@ -9,12 +9,12 @@
     "static/media/RoundUp-screenshot.png": "/dan-portfolio/static/media/RoundUp-screenshot.eb5fca4f9813289a9bed.png",
     "static/media/endless-constellation.svg": "/dan-portfolio/static/media/endless-constellation.96f323bd5c8a8d32f0b8.svg",
     "index.html": "/dan-portfolio/index.html",
-    "main.ebfd554b.css.map": "/dan-portfolio/static/css/main.ebfd554b.css.map",
-    "main.55b25fc0.js.map": "/dan-portfolio/static/js/main.55b25fc0.js.map",
+    "main.ed65c741.css.map": "/dan-portfolio/static/css/main.ed65c741.css.map",
+    "main.1f9f5068.js.map": "/dan-portfolio/static/js/main.1f9f5068.js.map",
     "787.4d265bfc.chunk.js.map": "/dan-portfolio/static/js/787.4d265bfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebfd554b.css",
-    "static/js/main.55b25fc0.js"
+    "static/css/main.ed65c741.css",
+    "static/js/main.1f9f5068.js"
   ]
 }
