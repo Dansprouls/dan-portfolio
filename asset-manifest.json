@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dan-portfolio/static/css/main.3e19b655.css",
+    "main.css": "/dan-portfolio/static/css/main.e19864a7.css",
     "main.js": "/dan-portfolio/static/js/main.14ed2d3c.js",
     "static/js/787.4d265bfc.chunk.js": "/dan-portfolio/static/js/787.4d265bfc.chunk.js",
     "static/media/Pokedex-screenshot.png": "/dan-portfolio/static/media/Pokedex-screenshot.4697faee311a0abbf9a4.png",
@@ -9,12 +9,12 @@
     "static/media/RoundUp-screenshot.png": "/dan-portfolio/static/media/RoundUp-screenshot.eb5fca4f9813289a9bed.png",
     "static/media/endless-constellation.svg": "/dan-portfolio/static/media/endless-constellation.96f323bd5c8a8d32f0b8.svg",
     "index.html": "/dan-portfolio/index.html",
-    "main.3e19b655.css.map": "/dan-portfolio/static/css/main.3e19b655.css.map",
+    "main.e19864a7.css.map": "/dan-portfolio/static/css/main.e19864a7.css.map",
     "main.14ed2d3c.js.map": "/dan-portfolio/static/js/main.14ed2d3c.js.map",
     "787.4d265bfc.chunk.js.map": "/dan-portfolio/static/js/787.4d265bfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e19b655.css",
+    "static/css/main.e19864a7.css",
     "static/js/main.14ed2d3c.js"
   ]
 }
